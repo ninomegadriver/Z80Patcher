@@ -1,0 +1,35 @@
+Name     Z80Patcher ;
+PartNo   00 ;
+Date     7/14/2022 ;
+Revision 01 ;
+Designer Nino MegaDriver ;
+Company  MegaDriver ;
+Assembly None ;
+Location  ;
+Device   G22V10 ;
+
+/* PIN Configuration - LSB */
+PIN[1..11] =  [A10..A0];
+PIN[13..17] = [A15..A11];
+PIN[23..18] = [D0..D5];
+
+field address = [A0..A15];
+field data = [D0..D5];
+
+/* 
+	Pins D0..D4 => Free bits to send to GAL16V8
+	Pin D5      => Z80 data source
+*/
+
+/* 
+	Default value for D5, pin that controls the CD4066
+	switches. This can be either X or !X according to the
+	jumper settings on the board	
+*/
+D5 = 'b'0;
+
+/* LSB Truth Table  */
+TABLE address => data {  
+	'b'1011000001000110 => 'b'000001; /* Activate patch for Z80 address 0xB046 and pass 0x00 to GAL16V8 */
+	'b'1011000001101010 => 'b'000011; /* Activate patch for Z80 address 0xB06A and pass 0x01 to GAL16V8 */
+}

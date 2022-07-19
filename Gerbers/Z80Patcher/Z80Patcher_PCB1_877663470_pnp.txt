@@ -1,0 +1,57 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=Z80Patcher_PCB1_877663470
+*Date=14:44:48
+*CreatedBy=Fritzing 0.9.6b..0.9.6
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;81.3815;-23.6636;0;Bottom;TXT4
+2;;;72.7301;-24.8941;0;Bottom;TXT5
+3;;;2.77468;-17.1499;0;Bottom;Via4
+4;;THT;75.9445;-26.3779;0;Bottom;J1
+5;;;82.8936;-44.6485;0;Bottom;IMG7
+6;;;25.5906;-8.23897;0;Bottom;Via2
+7;;DIP (Dual Inline) [THT];61.6841;-42.1063;0;Bottom;GAL22V10
+8;;DIP (Dual Inline) [THT];14.5911;-51.64;-90;Bottom;CD4066
+9;;DIP (Dual Inline) [THT];14.6018;-28.94;-90;Bottom;CD4066
+10;;;38.2999;-16.7621;0;Bottom;Via6
+11;;;42.978;-31.8664;90;Bottom;IMG4
+12;;;3.97466;-18.7501;0;Bottom;Via3
+13;100nF;100 mil [THT, multilayer];3.27468;-22.5247;90;Bottom;C5
+14;;;78.7693;-23.8094;0;Bottom;IMG5
+15;;;72.8043;-30.0666;0;Bottom;TXT5
+16;;;72.3914;-27.4784;0;Bottom;TXT5
+17;;;29.7487;-2.49771;0;Bottom;TXT2
+18;100nF;100 mil [THT, multilayer];54.6446;-58.55;0;Bottom;C2
+19;;dil40-6-zif_socket;42.9406;-31.94;90;Bottom;Z80
+20;;;78.7854;-28.9185;0;Bottom;IMG5
+21;;DIP (Dual Inline) [THT];74.4648;-44.64;0;Bottom;GAL16V8
+22;100nF;100 mil [THT, multilayer];70.9746;-23.8754;-90;Bottom;C7
+23;;;76.9821;-10.8962;0;Bottom;IMG3
+24;;DIP (Dual Inline) [THT];14.5804;-40.42;-90;Bottom;CD4066
+25;100nF;100 mil [THT, multilayer];75.5446;-60.05;0;Bottom;C1
+26;;THT;80.9746;-43.41;0;Bottom;J5
+27;;;42.0151;-31.9906;0;Bottom;IMG1
+28;;;81.3849;-28.8224;0;Bottom;TXT3
+29;;;72.5108;-22.3058;0;Bottom;TXT5
+30;;;9.48142;-8.38104;0;Bottom;TXT1
+31;;DIP (Dual Inline) [THT];63.7847;-15.6901;0;Bottom;CD4069
+32;;;38.667;-59.8385;0;Bottom;Via27
+33;;;17.1747;-16.4499;0;Bottom;Via5
+34;;THT;68.0747;-42.14;0;Bottom;J3
+35;;THT;52.9747;-31.96;0;Bottom;J2
+36;;dil40-6-zif_socket;40.3408;-31.94;90;Bottom;Z81
+37;100nF;100 mil [THT, multilayer];3.17469;-42.9247;90;Bottom;C4
+38;100nF;100 mil [THT, multilayer];3.17469;-31.4247;90;Bottom;C6
+39;;;60.958;-3.26943;0;Bottom;IMG2
+40;;DIP (Dual Inline) [THT];14.6147;-17.4399;-90;Bottom;CD4066
+41;;;25.5906;-15.2474;0;Bottom;Via1
+42;100nF;100 mil [THT, multilayer];3.97468;-54.6753;-90;Bottom;C3

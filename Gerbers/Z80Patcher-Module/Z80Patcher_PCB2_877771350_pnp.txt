@@ -1,0 +1,48 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=Z80Patcher_PCB2_877771350
+*Date=14:45:25
+*CreatedBy=Fritzing 0.9.6b..0.9.6
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;24.9461;-27.8217;0;Bottom;Via15
+2;;;19.7498;-16.1233;0;Bottom;Via23
+3;;THT;34.3199;-6.35322;0;Bottom;J10
+4;;THT;22.65;-21.6133;0;Bottom;J7
+5;;;4.2043;-11.8459;-90;Bottom;TXT7
+6;;;32.2435;-16.6135;0;Bottom;Via14
+7;;;20.9498;-5.2233;0;Bottom;Via20
+8;;;26.5497;-33.1233;0;Bottom;Via10
+9;;;37.6468;-4.90303;0;Bottom;TXT5
+10;;;3.54077;-28.4861;-90;Bottom;IMG6
+11;;;19.2497;-7.62332;0;Bottom;Via21
+12;;DIP (Dual Inline) [THT];22.6698;-19.1533;0;Bottom;27C512
+13;;;37.869;-7.48875;0;Bottom;TXT5
+14;;THT;35.5498;-22.8833;0;Bottom;J8
+15;;;26.5497;-30.5233;0;Bottom;Via11
+16;;;37.8454;-24.1989;0;Bottom;IMG7
+17;;;26.6394;-20.9274;0;Bottom;Via18
+18;;;18.0517;-30.523;0;Bottom;Via12
+19;;;28.0404;-5.23374;0;Bottom;Via22
+20;;;26.5497;-27.8233;0;Bottom;Via19
+21;;;19.8463;-33.1226;0;Bottom;Via26
+22;;;26.6499;-19.0233;0;Bottom;Via17
+23;;;18.0517;-27.9426;0;Bottom;Via13
+24;;;2.83515;-11.8318;-90;Bottom;TXT6
+25;100nF;100 mil [THT, multilayer];32.8498;-36.9933;-90;Bottom;C8
+26;;;24.9498;-19.9233;0;Bottom;Via16
+27;;;18.1547;-35.7374;0;Bottom;Via7
+28;;;9.88505;-21.5829;0;Bottom;IMG8
+29;;;19.7656;-28.0426;0;Bottom;Via24
+30;;THT;7.55001;-21.5933;0;Bottom;J6
+31;;;24.9498;-34.3233;0;Bottom;Via8
+32;;;19.8463;-30.623;0;Bottom;Via25
+33;;;24.9594;-30.6103;0;Bottom;Via9

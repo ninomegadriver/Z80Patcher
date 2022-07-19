@@ -1,0 +1,25 @@
+Name     Z80Patcher ;
+PartNo   00 ;
+Date     7/18/2022 ;
+Revision 01 ;
+Designer Nino MegaDriver ;
+Company  MegaDriver ;
+Assembly None ;
+Location  ;
+Device   G16V8 ;
+
+/* PIN Configuration - LSB */
+PIN[2..6]   = [A0..A4];
+PIN[12..19] = [D7..D0];
+
+field address = [A0..A4];
+field data = [D0..D7];
+
+/* LSB Truth Table  */
+TABLE address => data {  
+	'b'00000 => 'b'01101001; /* Outputs 0x69 */
+	'b'00001 => 'b'01000010; /* Outputs 0x42 */
+}
+
+
+
