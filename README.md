@@ -16,13 +16,13 @@ This solution heavily depends on access and propagation time, so:
 **Z80Patcher &#916;t &#60; Arcade Board &#916;t**  
   
 Timing example:
-|Bus Order       | Z80 Patcher IC | Propagation Delay       | &#916;t |
-|----------------|-------------|-------------------------|---------|
-| 1              |GAL22V10     |          4ns            |   4ns   |
-| 2              |CD4069       |         30ns            |   34ns  |
-| 2              |GAL16V8*     |         7.5ns           |  11.5ns |
-| 2              |W27C512-70*  |         70ns            |  74ns   |  
-| 3              |CD4066       |         35ns            |   69ns  |
+|Bus Order       | Z80 Patcher IC | Propagation Delay    | Segment &#916;t | Data Out &#916;t |
+|----------------|-------------|-------------------------|-----------------|------------------|
+| 1              |GAL22V10     |          4ns            |   4ns           | -                |
+| 2              |CD4069       |         30ns            |   34ns          | -                |
+| 2              |GAL16V8*     |         7.5ns           |  11.5ns         | 103ns            |
+| 2              |W27C512-70*  |         70ns            |  74ns           | 108ns            |
+| 3              |CD4066       |         35ns            |   69ns          | -                |
 
 *When using the eeprom module, GAL16V8 is not really needed. Likewise, if only a few patches are made, the eeprom module is not really needed.  
   
