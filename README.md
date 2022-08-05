@@ -34,4 +34,8 @@ When patching the ROM address space, look for the access time of the eeprom in r
 ## EEProm Module  
 ![PiPicoJamma 1.1 Front](https://github.com/ninomegadriver/Z80Patcher/blob/main/Z80Patcher-EEprom-Module.png?raw=true)  
   
-  
+## Actual Board Pictures  
+![Actual Z80Patcher Stacked Perspective Picture](https://github.com/ninomegadriver/Z80Patcher/blob/main/ActualBoard1.jpg?raw=true)  
+![Actual Z80Patcher Stacket Top View Picture](https://github.com/ninomegadriver/Z80Patcher/blob/main/ActualBoard2.jpg?raw=true)  
+![Actual Z80Patcher Main PCB](https://github.com/ninomegadriver/Z80Patcher/blob/main/ActualBoard3.jpg?raw=true)  
+![Actual Z80Patcher EEProm Module PCB](https://github.com/ninomegadriver/Z80Patcher/blob/main/ActualBoard4.jpg?raw=true)  
